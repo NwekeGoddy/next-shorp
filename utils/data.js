@@ -51,7 +51,7 @@ const data = {
     {
       name: "Fit Pants",
       category: "Pants",
-      image: "/images/pants.jpg",
+      image: "/images/pants2.jpg",
       price: 95,
       brand: "Zoro",
       rating: 4.5,
@@ -61,16 +61,16 @@ const data = {
     },
 
     {
-        name: "Classic Pants",
-        category: "Pants",
-        image: "/images/pants3.jpg",
-        price: 75,
-        brand: "Casely ",
-        rating: 4.5,
-        numReviews: 14,
-        countInStock: 20,
-        description: "A popular pants",
-      },
+      name: "Classic Pants",
+      category: "Pants",
+      image: "/images/pants3.jpg",
+      price: 75,
+      brand: "Casely ",
+      rating: 4.5,
+      numReviews: 14,
+      countInStock: 20,
+      description: "A popular pants",
+    },
   ],
 };
 

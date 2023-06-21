@@ -20,7 +20,8 @@ export default function Home() {
     <Layout>
       <h2>Products</h2>
       <Grid container spacing={3}>
-        {data.products.map((product) => {
+      
+        {data.products.map((product) => (
           <Grid item md={4} key={product.name}>
             <Card>
               <CardActionArea>
@@ -38,8 +39,8 @@ export default function Home() {
                 <Button>Add to cart</Button>
               </CardActions>
             </Card>
-          </Grid>;
-        })}
+          </Grid>
+        ))}
       </Grid>
     </Layout>
   );
